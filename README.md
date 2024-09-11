@@ -2,6 +2,8 @@
 
 ## Introduction
 
+<!-- start-petace-duet-overview -->
+
 PETAce-Duet is a collection of general-purpose two-party secure computing protocols.
 It is one of the crucial building blocks of the framework [PETAce](https://github.com/tiktok-privacy-innovation/PETAce).
 
@@ -25,7 +27,11 @@ The underlying BFV functionalities depend on Microsoft SEAL.
 The core functionalities of Duet are written in C++ to provide the best performance.
 A Python interface is provided in [PETAce](https://github.com/tiktok-privacy-innovation/PETAce).
 
+<!-- end-petace-duet-overview -->
+
 ## Requirements
+
+<!-- start-petace-duet-getting-started -->
 
 | System | Toolchain                                             |
 |--------|-------------------------------------------------------|
@@ -92,6 +98,8 @@ To run the benchmark, execute the following in commands in separate terminal ses
 ```
 
 You can also use `./build/bin/duet_bench -h` to learn more details.
+
+<!-- end-petace-duet-getting-started -->
 
 ## Contribution
 
